@@ -98,6 +98,7 @@ ul {
 @media (max-width: 768px) {
   .main-header .container ul {
     gap: 20px;
+    z-index: 1;
   }
 }
 .main-header .container ul li a {
@@ -133,6 +134,7 @@ ul {
 @media (max-width: 768px) {
   .main-header .container .icons {
     gap: 25px;
+    z-index: 1;
   }
 }
 .main-header .container .icons .inp {
@@ -671,6 +673,7 @@ ul {
   font-weight: 700;
   color: var(--main-color);
   border-radius: 0 0 5px 5px;
+  cursor: pointer;
   transition: var(--main-transition);
 }
 .best-sellers .container .boxs a.box:hover .btn {
@@ -958,6 +961,7 @@ ul {
   font-weight: 700;
   color: var(--main-color);
   border-radius: 0 0 5px 5px;
+  cursor: pointer;
   transition: var(--main-transition);
 }
 .body-Care .container .boxs a.box:hover .btn {
